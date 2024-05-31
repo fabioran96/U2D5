@@ -12,7 +12,12 @@ header{
     padding-top: 20px ;
     padding-bottom: 20px;
     border-bottom: black 1px solid;
-    
+
+    transition: background-color 0.3s; 
+}
+
+header.scrolled {
+    background-color: #ffffff;
 }
 
 .navbar{

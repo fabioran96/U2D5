@@ -1,0 +1,159 @@
+
+/* Header e navbar */
+
+header{
+    background-color: #ffc017;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 20px ;
+    padding-bottom: 20px;
+    border-bottom: black 1px solid;
+    
+}
+
+.navbar{
+    text-align:right;
+}
+
+.navbar button{
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+}
+
+/* Main */
+main{
+   
+}
+
+/* Primo blocco */
+
+.yellowBlock{
+    width: auto;
+    height: auto;
+    background-color: #ffc017;
+    padding-left: 10%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+h1{
+    
+    font-size: 80px;
+    padding-bottom: 15px;
+    padding-top: 100px;
+}
+
+.subtitle{
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.yellowBlock button{
+    margin-top: 30px;
+    margin-bottom: 100px;
+    background-color: black;
+    color: white;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 15px;
+}
+
+/* Trending links */
+
+.secondBlock{
+    border-bottom: #bbb 1px solid;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 15px;
+}
+
+.trendingContainer{
+    display:flex;
+    padding-bottom: 20px;
+    
+}
+
+.trending-item {
+    display: flex;
+    align-items: flex-start;
+    padding: 10px 0;
+    width: 33%;
+}
+
+.rank {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 20px;
+    color: #bbb;
+}
+
+.content {
+    
+}
+
+.author {
+    display: block;
+    font-size: 14px;
+    color: #888;
+}
+
+h3{
+    font-size: 18px;
+    margin: 5px 0;
+    color: #333;
+}
+
+.date {
+    font-size: 14px;
+    color: #bbb;
+}
+
+/* third block */
+
+.thirdBlock{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+/* fouth block */
+
+.latestArticles{
+    padding-left: 10%;
+    padding-right: 5%;
+    padding-top: 15px;
+    
+}
+
+.mediumArticle{
+    display: flex;
+    padding-bottom: 40px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+
+}
+
+.imageContent {
+    max-width: 35%;
+}
+
+.imageContent img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+

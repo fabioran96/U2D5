@@ -233,6 +233,28 @@ h2{
 
 }
 
+/* Media queries */
+
+@media (max-width: 768px) {
+
+    .thirdBlock{
+       display: grid;
+    }
+
+    .end{
+        padding-left: 10%;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .trendingContainer{
+        display: grid;
+    }
+
+
+}
+   
 
 
 
